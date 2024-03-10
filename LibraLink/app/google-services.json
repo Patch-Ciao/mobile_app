@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "968510418030",
+    "firebase_url": "https://libralink-ef213-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "libralink-ef213",
+    "storage_bucket": "libralink-ef213.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968510418030:android:9383b1d38f97bb4c13ca7f",
+        "android_client_info": {
+          "package_name": "com.example.libralink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbKkPC8K3YSvVIslYhqSKng7Go2RvcSjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+
+    <ImageView
+        android:id="@+id/bookImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/book_image_description"
+        android:src="@drawable/booknotfound" />
+
+    <TextView
+        android:id="@+id/bookNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bookImageView"
+        android:layout_marginStart="16dp"
+        android:text="Book Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/borrowedDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookNameTextView"
+        android:layout_toRightOf="@id/bookImageView"
+        android:layout_marginStart="16dp"
+        android:text="Borrowed Date"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/returnDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/borrowedDateTextView"
+        android:layout_toRightOf="@id/bookImageView"
+        android:layout_marginStart="16dp"
+        android:text="Return Date"
+        android:textSize="14sp" />
+
+</RelativeLayout>
